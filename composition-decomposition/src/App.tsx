@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Sidebar from "./components/SideBar";
 import Widget from "./components/Widget";
 
 function App() {
@@ -16,6 +17,13 @@ function App() {
           })}
         </ul>
       </Header>
+      <Sidebar className="offer">
+        <img className="offer-icon" src="#" alt="icon" />
+        <a className="offer-header" href="#">
+          Работа над ошибками
+        </a>
+        <p className="offer-text">Смотрите на Яндексе и запоминайте</p>
+      </Sidebar>
     </>
   );
 }
