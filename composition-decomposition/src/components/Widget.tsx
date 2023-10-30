@@ -3,7 +3,9 @@ import { PropsWithChildren } from "react";
 /**
  * @param {className} string
  * @param {title} string
- * @param {srcImage?} string */
+ * @param {srcImage?} string
+ * @param {source?} string
+ * @param {date?} string */
 
 const Widget = ({
   className,
