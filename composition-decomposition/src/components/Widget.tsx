@@ -23,10 +23,10 @@ const Widget = ({
   return (
     <div className={className}>
       {srcImage ? <img src={srcImage}></img> : srcImage}
+      {date ? <time className="time">{date}</time> : date}
       <a href="">{title}</a>
       {children}
       {source ? <p className="source">{source}</p> : source}
-      {date ? <time className="time">{date}</time> : date}
     </div>
   );
 };
