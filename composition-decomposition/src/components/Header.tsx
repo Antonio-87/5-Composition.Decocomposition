@@ -1,6 +1,4 @@
-/**
- * @param {className} string
- */
+/**@param {className} string*/
 
 import { PropsWithChildren } from "react";
 
